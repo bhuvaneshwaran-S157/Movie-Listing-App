@@ -1,0 +1,13 @@
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+/* In your styles.css or a <style> tag (if using Tailwind with PostCSS setup) */
+/* .custom-movie-item {
+ w-[463.64px] h-full bg-white p-2 m-2 rounded-md font-semibold cursor-pointer flex justify-between;
+  }
+   */
